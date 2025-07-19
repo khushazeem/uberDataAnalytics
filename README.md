@@ -1,9 +1,10 @@
 # Uber Data Analytics | Modern Data Engineering GCP Project
 
-![GCP](https.img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Mage](https.img.shields.io/badge/Mage.ai-1F174F?style=for-the-badge&logo=mage&logoColor=white)
-![BigQuery](https.img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=google-bigquery&logoColor=white)
-![Looker](https.img.shields.io/badge/Looker-4285F4?style=for-the-badge&logo=looker&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Mage](https://img.shields.io/badge/Mage.ai-1F174F?style=for-the-badge&logo=mage&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=google-bigquery&logoColor=white)
+![Looker](https://img.shields.io/badge/Looker-4285F4?style=for-the-badge&logo=looker&logoColor=white)
+
 
 This project dives into the world of Uber data analytics using modern data engineering practices on Google Cloud Platform (GCP). We'll build an end-to-end ETL pipeline to process, warehouse, and visualize Uber trip data. The project leverages **Mage.ai** for building a robust ETL pipeline, **Google Cloud Storage** for raw data storage, **BigQuery** for data warehousing, and **Looker Studio** for creating insightful dashboards.
 
