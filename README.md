@@ -22,10 +22,7 @@ The project follows a modern data stack architecture, ensuring scalability and m
 4.  **Data Visualization**: Google Looker Studio connects directly to BigQuery, providing a user-friendly interface to build interactive dashboards and reports for business intelligence.
 
 <p align="center">
-  <img src="path/to/your/architecture_diagram.png" alt="Project Architecture Diagram" width="800"/>
-</p>
-<p align="center">
-  <em>(Suggestion: Create a simple diagram and add it here)</em>
+  <img src="https://raw.githubusercontent.com/khushazeem/uberDataAnalytics/main/architecture.jpg" alt="Project Architecture Diagram" width="800"/>
 </p>
 
 ---
@@ -75,8 +72,8 @@ Follow these steps to set up the project environment on your local machine and G
 ### 3. Project Setup
 1.  **Clone the Repository**:
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
+    git clone [https://github.com/khushazeem/uberDataAnalytics.git](https://github.com/khushazeem/uberDataAnalytics.git)
+    cd uberDataAnalytics
     ```
 2.  **Set up GCS Bucket**:
     * Create a new GCS bucket in your GCP project to store the raw data.
@@ -85,27 +82,27 @@ Follow these steps to set up the project environment on your local machine and G
     * Create a new **Dataset** in BigQuery. This dataset will hold the table created by our ETL pipeline.
 4.  **Set up Mage**:
     * Install Mage.ai:
-      ```bash
-      pip install mage-ai
-      ```
+        ```bash
+        pip install mage-ai
+        ```
     * Initialize a new Mage project:
-      ```bash
-      mage init uber_data_project
-      ```
+        ```bash
+        mage init uber_data_project
+        ```
     * Copy the pipeline files from this repository into your new `uber_data_project` directory.
     * **Configure GCP Credentials for Mage**:
         * Create a file named `io_config.yaml` inside your Mage project directory (`uber_data_project/io_config.yaml`).
         * Add the following configuration, pointing to your GCP Project ID and the path to your service account JSON key:
-          ```yaml
-          version: 0.1.0
-          default:
-            GOOGLE_SERVICE_ACC_KEY_FILEPATH: "/path/to/your/gcp-credentials.json"
-            GOOGLE_PROJECT_ID: "your-gcp-project-id"
-          ```
+            ```yaml
+            version: 0.1.0
+            default:
+              GOOGLE_SERVICE_ACC_KEY_FILEPATH: "/path/to/your/gcp-credentials.json"
+              GOOGLE_PROJECT_ID: "your-gcp-project-id"
+            ```
     * Start Mage:
-      ```bash
-      mage start uber_data_project
-      ```
+        ```bash
+        mage start uber_data_project
+        ```
     * Open your browser to `http://localhost:6789` to access the Mage UI.
 
 ---
@@ -143,10 +140,10 @@ Once the data is in BigQuery, you can connect Looker Studio to create an interac
     * Relationship between trip distance and fare amount.
 
 <p align="center">
-  <em>(Suggestion: Add a screenshot of your final dashboard here)</em>
+  <em>(Suggestion: Add a screenshot of your final dashboard here. You can replace the placeholder below.)</em>
 </p>
 <p align="center">
-  <img src="path/to/your/dashboard_screenshot.png" alt="Looker Studio Dashboard" width="800"/>
+  <img src="https://raw.githubusercontent.com/khushazeem/uberDataAnalytics/main/dashboard_screenshot.png" alt="Looker Studio Dashboard" width="800"/>
 </p>
 
 ---
