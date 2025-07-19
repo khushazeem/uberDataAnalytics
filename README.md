@@ -1,9 +1,9 @@
 # Uber Data Analytics | Modern Data Engineering GCP Project
 
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Mage](https://img.shields.io/badge/Mage.ai-1F174F?style=for-the-badge&logo=mage&logoColor=white)
-![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=google-bigquery&logoColor=white)
-![Looker](https://img.shields.io/badge/Looker-4285F4?style=for-the-badge&logo=looker&logoColor=white)
+![GCP](https.img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Mage](https.img.shields.io/badge/Mage.ai-1F174F?style=for-the-badge&logo=mage&logoColor=white)
+![BigQuery](https.img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=google-bigquery&logoColor=white)
+![Looker](https.img.shields.io/badge/Looker-4285F4?style=for-the-badge&logo=looker&logoColor=white)
 
 This project dives into the world of Uber data analytics using modern data engineering practices on Google Cloud Platform (GCP). We'll build an end-to-end ETL pipeline to process, warehouse, and visualize Uber trip data. The project leverages **Mage.ai** for building a robust ETL pipeline, **Google Cloud Storage** for raw data storage, **BigQuery** for data warehousing, and **Looker Studio** for creating insightful dashboards.
 
@@ -126,6 +126,16 @@ This final block takes the transformed DataFrame and loads it into your designat
 
 ---
 
+## Data Model
+
+The transformed data is structured into a fact table and several dimension tables to create a simple and effective Star Schema. This model is optimized for analytical queries and reporting.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/darshilparmar/uber-data-engineering-mage-project/main/data_model.jpeg" alt="Data Model Diagram" width="800"/>
+</p>
+
+---
+
 ## Data Visualization in Looker Studio
 
 Once the data is in BigQuery, you can connect Looker Studio to create an interactive dashboard.
@@ -143,7 +153,7 @@ Once the data is in BigQuery, you can connect Looker Studio to create an interac
   <em>(Suggestion: Add a screenshot of your final dashboard here. You can replace the placeholder below.)</em>
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/khushazeem/uberDataAnalytics/main/dashboard_screenshot.png" alt="Looker Studio Dashboard" width="800"/>
+  <img src="path/to/your/dashboard_screenshot.png" alt="Looker Studio Dashboard" width="800"/>
 </p>
 
 ---
